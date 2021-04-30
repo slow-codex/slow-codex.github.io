@@ -1,0 +1,104 @@
+/* Main Font in (style.css) */
+/* If required new font add here! */
+
+/* All Custom Colors in (style.css) || [:root] || */
+/* Add / Change if required! */
+
+/* Skills Section Styles Start */
+
+/* Scroll Animation Toggle */
+
+/*
+.slide-in {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 2s ease;
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+*/
+
+/* Skills Custom Styles */
+
+.skills {
+    width: 100%;
+    background: var(--lightblack);
+    padding: 7rem 2rem 3rem;
+}
+
+.skills h2.skills_heading {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f1f6f9;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.skills .skill-content {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills .skill-content .skill {
+    margin: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 1s ease;
+}
+
+/*
+.skills .skill-content .skill:hover {
+    transform: scale(1.2);
+}
+*/
+
+.skills .skill-content .skill .skill-img-container {
+    width: 70px;
+}
+
+.skills .skill-content .skill h3.skill-title {
+    margin: 30px 10px 20px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--mediumgrey);
+}
+
+/* Skills Icons Colors */
+
+#html_icon path {
+    fill: #f06529;
+}
+#css_icon path {
+    fill: #2965f1;
+}
+#javascript_icon path {
+    fill: #f0db4f;
+}
+#nodejs_icon path {
+    fill: #6cc24a;
+}
+#mongodb_icon path {
+    fill: #589636;
+}
+#express_icon path {
+    fill: #7fffd4;
+}
+#reactjs_icon path {
+    fill: #00d8ff;
+}
+#python_icon path.p1 {
+    fill: #ffde57;
+}
+#python_icon path.p2 {
+    fill: #4584b6;
+}

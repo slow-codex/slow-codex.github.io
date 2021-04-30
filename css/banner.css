@@ -1,0 +1,160 @@
+/* Main Font in (style.css) */
+/* If required new font add here! */
+
+/* All Custom Colors in (style.css) || [:root] || */
+/* Add / Change if required! */
+
+/* Banner Section Styles Start */
+
+section.banner {
+    position: relative;
+    min-height: 100vh;
+    background: var(--lightblack);
+    padding: 5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.banner .developer-bio {
+    margin: auto 3rem;
+}
+
+section.banner .developer-bio p {
+    margin: 15px auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--lightgrey);
+    line-height: 0;
+}
+
+section.banner .developer-bio h2 {
+    margin: 15px auto;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--lightgrey);
+}
+
+section.banner .developer-bio h2 span {
+    margin: 0 10px;
+    font-size: 4rem;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    background: linear-gradient(45deg, #43e97b, #38f9d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section.banner .developer-bio h3 {
+    margin: 10px auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--lightwhite);
+    letter-spacing: 1.4px;
+    word-spacing: 6px;
+    text-transform: capitalize;
+}
+
+section.banner .developer-bio .btn {
+    position: relative;
+    background: linear-gradient(45deg, #43e97b, #38f9d7);
+    color: var(--lightblack);
+    text-decoration: none;
+    padding: 4px 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 5px double #38f9d7;
+    transition: all 0.3s ease;
+}
+
+section.banner .developer-bio .btn:hover {
+    color: var(--lightwhite);
+    background: var(--lightblack);
+}
+
+section.banner .developer-img {
+    margin: auto 2rem;
+}
+
+section.banner .developer-img img {
+    max-width: 40rem;
+}
+
+@media (max-width: 1360px) {
+    section.banner .developer-img img {
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    section.banner .developer-bio {
+        margin: 3rem 0;
+    }
+
+    section.banner .developer-img {
+        margin: 2rem auto;
+    }
+
+    section.banner .developer-img img {
+        max-width: 26rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section.banner .developer-bio p {
+        font-size: 1.5rem;
+    }
+
+    section.banner .developer-bio h2 {
+        font-size: 2rem;
+    }
+
+    section.banner .developer-bio h2 span {
+        font-size: 3.6rem;
+    }
+
+    section.banner .developer-bio h3 {
+        font-size: 1.4rem;
+    }
+
+    section.banner .developer-bio .btn {
+        padding: 4px 20px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 940px) {
+    section.banner .developer-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 512px) {
+    section.banner .developer-bio h2 span {
+        margin: 0 10px;
+        font-size: 2.6rem;
+    }
+
+    section.banner .developer-img img {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 340px) {
+    section.banner .developer-img img {
+        max-width: 16rem;
+    }
+}
+
+@media (max-width: 250px) {
+    section.banner .developer-img img {
+        max-width: 10rem;
+    }
+}
